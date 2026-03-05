@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useMemo } from 'react';
-import { AlertTriangle, Plus, X, Pencil, AlertOctagon, Calendar, Trash2, LayoutList, PieChart, TrendingUp } from 'lucide-react';
+import { useState, useEffect, useMemo } from 'react';
+import { AlertTriangle, Plus, X, Pencil, AlertOctagon, Calendar, Trash2, LayoutList, PieChart } from 'lucide-react';
 
 interface Transaction {
   id: number;
