@@ -199,8 +199,7 @@ export default function App() {
   };
 
   // СКЛЕЙКА ТРАНЗАКЦИЙ И ПЛАНОВ ДЛЯ ТАЙМЛАЙНА
-  type TimelineItem = (Transaction & { _type: 'tx' }) | (PlannedEvent & { _type: 'plan' });
-
+ 
   const groupedTimeline = useMemo(() => {
     const groups: Record<string, { items: any[], finalDayBalance: number }> = {};
     let runningBalance = 0;
@@ -588,5 +587,5 @@ export default function App() {
         </div>
       )}
     </div>
-  );
+)
 }
