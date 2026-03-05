@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Чтобы на iPhone 12 Pro всё было красиво */
+  --safe-top: env(safe-area-inset-top);
+}
